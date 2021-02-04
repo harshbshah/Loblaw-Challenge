@@ -18,7 +18,7 @@ class ProductListAdapter: NSObject {
     }
 }
 
-// MARK: - UICollectionViewDataSource Delegate implementation
+// MARK: - UITableViewDataSource Delegate implementation
 
 extension ProductListAdapter: UITableViewDelegate, UITableViewDataSource {
     

@@ -25,6 +25,7 @@ class ProductListVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    /// seting up adapter
     fileprivate func setupAdapter()
     {
         adapter = ProductListAdapter(delegate: self)
@@ -35,6 +36,8 @@ class ProductListVC: UIViewController {
         refreshControl.addTarget(self, action: #selector(self.reloadTableViewData(_:)), for: .valueChanged)
         productListTableView.addSubview(refreshControl) // not required when using UITableViewController
     }
+    
+    /// Setup UI for inital UI
     fileprivate func setupUI()
     {
         self.navigationItem.title = "Product List"
@@ -42,6 +45,7 @@ class ProductListVC: UIViewController {
         
     }
     
+    /// Intial ViewModel setup
     fileprivate func setupViewModel()
     {
         // Setup for reloadTableViewClosure
@@ -75,6 +79,7 @@ class ProductListVC: UIViewController {
             viewModel.fetchData()
         }
     
+    /// Refreshing data from server.
     @objc func reloadTableViewData(_ sender: AnyObject) {
         viewModel.fetchData()
     }

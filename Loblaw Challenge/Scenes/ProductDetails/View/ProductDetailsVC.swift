@@ -25,12 +25,14 @@ class ProductDetailsVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    func setupUI()
+    /// Setup UI for inital UI 
+    fileprivate func setupUI()
     {
         
     }
-
-    func setData()
+    
+    /// Setup Data from server
+    fileprivate func setData()
     {
         if let product = product
         {

@@ -20,7 +20,7 @@ class ProductListViewModel {
     
     // MARK: - Properties
     
-    // We defined the FakeAPIServiceProtocol in the FakeAPIService.swift file.
+    // We defined the FakeAPIServiceProtocol in the ProductAPIs.swift file.
     // We also defined a class and make it conform to that protocol.
     let apiService: ProductAPIProtocol
 

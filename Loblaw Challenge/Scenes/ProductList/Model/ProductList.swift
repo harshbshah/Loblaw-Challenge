@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+/// Decodes response from server
 struct ProductList: Codable {
     let entries: [Product]?
 }

@@ -15,6 +15,7 @@ class ProductCell: UITableViewCell {
     @IBOutlet weak var productPriceLabel: UILabel!
     @IBOutlet weak var cellView: UIView!
     
+    ///providing data to display
     var product:Product?
     {
         
@@ -42,6 +43,8 @@ class ProductCell: UITableViewCell {
             }
         }
     }
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         setupUI()
@@ -53,12 +56,14 @@ class ProductCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    /// When the UI updates
     override func layoutSubviews() {
         super.layoutSubviews()
         setupUI()
     }
     
-    
+    /// Setup UI for inital UI
     func setupUI()
     {
         self.cellView.layer.cornerRadius = 4.0

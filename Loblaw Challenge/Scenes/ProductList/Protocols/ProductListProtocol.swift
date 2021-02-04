@@ -6,6 +6,7 @@
 //
 
 import Foundation
+/// Protocol needs to be implemented for Product List
 protocol ProductListProtocol {
     func getData(at: IndexPath)->Product
     func itemSelected(at indexPath: IndexPath)
