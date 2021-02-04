@@ -34,9 +34,10 @@ Loblaw's iOS Challenge is follwing MVVM architecture.
 
 ### Future implementation
 
-* look for the internet connection and show the appropriate message.
-* Animate the table view to show the loading indicator.
-* adjust Label text according to UI design.
+* App should look for the Internet connectivity and show the appropriate message upon unavailable.
+* Lazy loading or Pagination needs to integrate to handle more data.
+* Table view can be animated and show the loading indicator.
+* Label text needs more constraints according to UI design.
 
 
 
