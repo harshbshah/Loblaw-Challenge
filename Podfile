@@ -6,7 +6,6 @@ target 'Loblaw Challenge' do
   use_frameworks!
 
   # Pods for Loblaw Challenge
-
 	pod 'Alamofire', '~> 5.4'
 	pod 'SDWebImage', '~> 5.10'
 end

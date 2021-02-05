@@ -1,6 +1,0 @@
-framework module Pods_Loblaw_Challenge {
-  umbrella header "Pods-Loblaw Challenge-umbrella.h"
-
-  export *
-  module * { export * }
-}
