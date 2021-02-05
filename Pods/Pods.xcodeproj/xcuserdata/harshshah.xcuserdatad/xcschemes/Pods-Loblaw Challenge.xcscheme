@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E38DB8E7E9F786000F62B24013288C12"
-               BuildableName = "Pods_Loblaw_Challange.framework"
-               BlueprintName = "Pods-Loblaw Challange"
+               BlueprintIdentifier = "53BD03969B0380CAF294BADED405057C"
+               BuildableName = "Pods_Loblaw_Challenge.framework"
+               BlueprintName = "Pods-Loblaw Challenge"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

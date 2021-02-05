@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Loblaw_ChallangeVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Loblaw_ChallangeVersionString[];
+FOUNDATION_EXPORT double Pods_Loblaw_ChallengeVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Loblaw_ChallengeVersionString[];
 
